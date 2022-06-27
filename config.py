@@ -1,9 +1,9 @@
 import os
 from instaloader import Instaloader
 class Config:
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = int(os.environ.get("API_ID", "19656651"))
+    API_HASH = os.environ.get("API_HASH", "2ca49f18a6ae7e57f568ff5aa30418df")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5494732785:AAE9Y2BkT2qA178bPIEbAvccjX3bdImE238") 
     USER = os.environ.get("INSTAGRAM_USERNAME", "znarmiin")
     OWNER = os.environ.get("OWNER_ID", "93372553")
     INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", "53298915992%3AnxyaU6dDP7TRTE%3A15")
